@@ -25,7 +25,7 @@ use lib "$FindBin::Bin";
 use lib "/usr/local/nagios/libexec";
 
 #use utils qw($TIMEOUT %ERRORS &print_revision &support);
-use Nagios::Plugin qw(%ERRORS);
+use Monitoring::Plugin qw(%ERRORS);
 use Data::Dumper;
 
 use vars qw($PROGNAME);
